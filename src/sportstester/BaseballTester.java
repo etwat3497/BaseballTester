@@ -23,6 +23,7 @@ public class BaseballTester {
         Scanner input = new Scanner(System.in);
         int numWins, numLosses, numTies;
         
+        
         //Create a new baseball team object called team
         BaseballTeam team;
         

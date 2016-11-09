@@ -20,8 +20,8 @@ public abstract class Sports {
      * Post: void
      * Default constructor to set values for variables
      */
-    public Sports(String name){
-         teamName = name;
+    public Sports(){
+         
     }
 
 }

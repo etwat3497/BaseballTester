@@ -20,9 +20,9 @@ public class BaseballTeam extends Sports implements Stats{
      * Post: void
      * Default constructor to set values for variables
      */
-    public BaseballTeam(int won, int lost, int tied, String name){
+    public BaseballTeam(int won, int lost, int tied){
         //Run superclass sports and set base variables
-        super(name);
+        super();
         gamesWon = won;
         gamesLost = lost;
         gamesTied = tied;
